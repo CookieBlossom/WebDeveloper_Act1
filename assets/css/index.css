@@ -1,7 +1,39 @@
-.body{
-    background-color: aquamarine;
+*{
+    margin: 0;
+    padding: 0;
 }
 
 .link-inicio{
     background-color: aqua;
+    display: flex;
+    justify-content: right;
+}
+.seccion-principal{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;    
+}
+.seccion-Animales{
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+}
+.seccion-Animales h2{
+    text-align: center;
+}
+.container{
+    display: flex;
+    min-height: 100vh;
+}
+.container-content{
+    margin: 20px;
+    padding: 0px 100px 0px 100px;
+}
+
+.animal-imagen img{
+    width: 400px;
+    height: 400px;
 }
