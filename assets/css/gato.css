@@ -1,3 +1,67 @@
-.body{
-    background-color: aqua;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.link-inicio{
+    background-color: rgb(2, 94, 94);
+    display: flex;
+    justify-content: right;
+}
+.container{
+    display: flex;
+    min-height: 100vh;
+}
+.container-content{
+    margin: 20px;
+}
+
+.seccion-principal{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;       
+}
+.seccion-adopcion{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(59, 36, 36);
+}
+
+.carta{
+    display: flex;
+    background-color: rgb(243, 230, 230);
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.carta-titulo{
+    font-weight: bold;
+    font-size: 35px;
+    padding: 10px 0;
+}
+
+.carta-imagen{
+    padding: 20px;
+    width: 100%;
+}
+.carta-imagen img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+@media (max-width: 850px){
+    .seccion-adopcion{
+        display: flex;
+        flex-direction: column;
+    }
+    .carta-titulo{
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .container-content{
+        margin: 10px;
+        padding: 0;
+    }
 }

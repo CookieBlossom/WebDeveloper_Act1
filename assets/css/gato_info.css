@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    min-height: 100vh;
+}
+.container-content{
+    width: 100%;
+    margin: 20px;
+    padding: 40px 0px;
+}
+.link-inicio{
+    background-color: rgb(2, 94, 94);
+    display: flex;
+    justify-content: right;
+}
+.seccion-informacion{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container-img{
+    display: flex;
+    justify-content: center;
+}
+.container-img img{
+    max-width: 500px;
+    width: 100%;
+    border-radius: 20px;
+}
+.carta{
+    padding: 10px;
+}

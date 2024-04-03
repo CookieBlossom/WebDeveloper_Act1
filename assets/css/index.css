@@ -13,8 +13,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;    
+    margin-bottom: 20px;   
 }
+
+.seccion-principal p{
+    width: 90%;
+}
+
+.seccion-integrantes{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccion-integrantes ul{
+    padding-left: 10%;
+    align-self: start;
+}
+
 .seccion-Animales{
     background-color: blueviolet;
     display: flex;
@@ -31,7 +48,6 @@
 }
 .container-content{
     margin: 20px;
-    padding: 0px 60px 0px 60px;
 }
 
 .animal-imagen img{
