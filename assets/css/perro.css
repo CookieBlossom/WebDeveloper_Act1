@@ -17,7 +17,7 @@
 }
 
 .seccion-principal{
-    background-color: aquamarine;
+    background-color: rgba(0, 195, 255, 0.821);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,12 +26,12 @@
 .seccion-adopcion{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: rgb(59, 36, 36);
+    background-color: rgb(59, 36, 41);
 }
 
 .carta{
     display: flex;
-    background-color: rgb(243, 230, 230);
+    background-color: rgba(246, 93, 93, 0.836);
     justify-content: space-around;
     flex-wrap: wrap;
     
